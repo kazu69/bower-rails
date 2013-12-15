@@ -88,13 +88,13 @@ assets_path "assets/javascript"
 # Puts files under ./vendor/assets/js/bower_components
 group :vendor, :assets_path => "assets/js"  do
   asset "jquery"            # Assummes it's latests
-  asset "backbone", "1.2"
+  asset "backbone", "1.1.0"
 end
 
 # Puts files under ./lib/assets/javascript/bower_components
 group :lib do
   asset "jquery"
-  asset "backbone", "1.2"
+  asset "backbone", "1.1.0"
 end
 ```
 NOTE: Available groups are `:lib` and `:vendor`. Others are not allowed according to the Rails convention.
